@@ -7,10 +7,10 @@ function Product(props){
     const { id,title,price,image,rating }=props
 const [{basket}, dispatch] = useStateValue();
 
-const [add, setAdd]=useState([]);
 
-const addToBasket = (price) =>{
-    console.log("price==>",price);
+
+const addToBasket = () =>{
+ 
 dispatch({
     type: "ADD_TO_BASKET",
     item:{
@@ -38,12 +38,12 @@ dispatch({
             <div className="product__rating">
                 {Array(rating)
                 .fill().map((_, i) =>(
-                    <p>🌟</p>
+                    <p key={i}>🌟</p>
                 ))}
                 
             </div>
         </div>
-        <img alt="Meghan and Harry: The Real Story by [Lady Colin Campbell]"
+        <img style={{width:'200px', height:'200px'}} alt="Meghan and Harry: The Real Story by [Lady Colin Campbell]"
          src={image} 
         />
         <button onClick={addToBasket} className="button"> Add to Basket</button>

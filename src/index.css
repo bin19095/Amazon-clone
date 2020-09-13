@@ -1,12 +1,20 @@
+
 *{
-    margin: 0;
+margin:auto;  
+    
+
     
 }
+html{
+    width:100%;
+
+    
+    
+}
+/*for mobile*/
 body{
     background-color: rgb(234,237,237);
     font-family: "Amazon Ember",Arial,sans-serif;
 }
 
-code{
-    
-}
+

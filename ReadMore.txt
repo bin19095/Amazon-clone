@@ -1,0 +1,5 @@
+Amazon Clone functionality
+Stripe functionality
+Cloud function to process stripe payment (Servless)
+Firebase for real-time database (Firestore)
+Mern Stack

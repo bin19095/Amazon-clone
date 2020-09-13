@@ -14,17 +14,17 @@ function Home() {
             <div className="home__row">
                 {/*Product*/}
                 <Product 
-                id={1}
+                id={Math.random()}
                 title="The lean Startup"
                 price={20.00}
-                image="https://m.media-amazon.com/images/I/41u3byBybNL.jpg"
+                image="https://picsum.photos/400/500"
                 rating={5}
                 />
                   <Product
-                  id={2} 
+                  id={Math.random()} 
                 title="The lean Startup"
                 price={30.00}
-                image="https://m.media-amazon.com/images/I/41u3byBybNL.jpg"
+                image="https://picsum.photos/200/301"
                 rating={5}
                 />
                
@@ -32,43 +32,38 @@ function Home() {
               <div className="home__row">
                 {/*Product*/}
                 <Product
-                id={3} 
+                id={Math.random()} 
                 title="The lean Startup"
                 price={40.00}
-                image="https://m.media-amazon.com/images/I/41u3byBybNL.jpg"
+                image="https://picsum.photos/200/330"
                 rating={5}
                 />
                   <Product 
-                  id={4}
+                id={Math.random()}
                 title="The lean Startup"
                 price={120.00}
-                image="https://m.media-amazon.com/images/I/41u3byBybNL.jpg"
+                image="https://picsum.photos/200/360"
                 rating={5}
                 />
                   <Product 
-                  id={5}
+                  id={Math.random()}
                 title="The lean Startup"
                 price={22.00}
-                image="https://m.media-amazon.com/images/I/41u3byBybNL.jpg"
+                image="https://picsum.photos/200/320"
                 rating={5}
                 />
-               
               </div>
+
               <div className="home__row">
                 {/*Product*/}
                 <Product 
-                id={6}
+                id={Math.random()}
                 title="The lean Startup"
                 price={20.00}
-                image="https://m.media-amazon.com/images/I/41u3byBybNL.jpg"
+                image="https://picsum.photos/200/310"
                 rating={5}
                 />
-                
-               
               </div>
-           
-          
-
             </div>
         </div>
     )
